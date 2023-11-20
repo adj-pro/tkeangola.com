@@ -4,6 +4,11 @@ import banner from '@/assets/images'
 
 export default function Banner() {
   return (
-    <Image src={banner} alt='Banner TKE' className='w-full h-full max-h-screen' />
+    <div>
+      <Image src={banner} alt='Banner TKE' className='w-full h-full max-h-screen' />
+      <Image src={banner} alt='Banner TKE' className='w-full h-full max-h-screen md:hidden' />
+      <Image src={banner} alt='Banner TKE' className='w-full h-full max-h-screen lg:hidden' />
+      <Image src={banner} alt='Banner TKE' className='w-full h-full max-h-screen lg:hidden' />
+    </div>
   )
 }
